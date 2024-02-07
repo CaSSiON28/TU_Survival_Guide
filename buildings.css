@@ -1,6 +1,15 @@
 body{
     font-family: 'Mitr', sans-serif;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/pink.jpg');
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: #F5E6E0;
+    padding: 20px; 
+}
 }
 a{
     text-decoration: none;
