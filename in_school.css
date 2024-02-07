@@ -15,13 +15,14 @@ img{
     height:500px;
     border-radius:12px;
 }
-p {
+pre {
     font-size: 18px;
     margin-top: 30px;
     text-align: center;
     width: 1000px;
     display: inline-block;
     font-family: 'Mitr', sans-serif;
+    color: #902745;
 }
 .link{
     display: block;
