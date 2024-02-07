@@ -11,7 +11,12 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #F5E6E0;
+    background-image: url('img/pink.jpg');
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: #F5E6E0;
+    padding: 20px; 
+}
 }
 
 .button-container {
