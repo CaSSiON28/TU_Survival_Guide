@@ -44,26 +44,26 @@ body{
 
 .title-word-1 {
   --color-1: #902745;
-  --color-2: #F5E6E0;
+  --color-2: #ffffff;
   --color-3: black;
 }
 
 .title-word-2 {
   --color-1: black;
   --color-2: #902745;
-  --color-3: #F5E6E0;
+  --color-3: #ffffff;
 }
 
 .title-word-3 {
   --color-1: black;
-  --color-2: #F5E6E0;
+  --color-2: #ffffff;
   --color-3: #902745;
 }
 
 .title-word-4 {
   --color-1: #902745;
-  --color-2: #F5E6E0;
-  --color-3: black;
+  --color-2: black;
+  --color-3: #ffffff;
 }
 
 @keyframes color-animation {
