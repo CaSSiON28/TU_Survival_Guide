@@ -29,6 +29,7 @@ body{
     margin-right:400px;
     padding:20px;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .beside{
     display:flex;
@@ -49,6 +50,7 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .vertical{
     text-align:center;
@@ -65,6 +67,7 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .small2_button{
@@ -79,6 +82,7 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .button-container {
@@ -98,5 +102,6 @@ body{
     width: 500px;
     height:100px;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
