@@ -38,7 +38,7 @@ body{
 }
 
 .long_button{
-    border:3px solid #902745;
+    border: 3px solid #902745;
     border-radius:12px;
     text-align:center;
     margin-right:50px;
@@ -57,7 +57,7 @@ body{
 }
 
 .small1_button{
-    border:3px solid #902745;
+    border: 3px solid #902745;
     border-radius:12px;
     text-align:center;
     width:400px;
@@ -71,7 +71,7 @@ body{
 }
 
 .small2_button{
-    border:3px solid #902745;
+    border: 3px solid #902745;
     border-radius:12px;
     margin-top:50px;
     text-align:center;
@@ -90,12 +90,12 @@ body{
 }
 
 .about_button {
+    border: 3px solid #902745;
     display: block;
     margin: 20px auto;
     padding: 25px;
     font-size: 25px;
     font-family: 'Comfortaa', sans-serif;
-    border: 3px solid #902745;
     border-radius: 8px;
     color: #902745;
     cursor: pointer;
