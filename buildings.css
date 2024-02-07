@@ -38,10 +38,18 @@ a{
     width:500px;
     height:250px;
 }
+h {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 1000px;
+    display: inline-block;
+    font-family: 'Mitr', sans-serif;
+}
 p {
     font-size: 18px;
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
     width: 1000px;
     display: inline-block;
     font-family: 'Mitr', sans-serif;
