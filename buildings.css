@@ -1,5 +1,5 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mitr', sans-serif;
     text-align: center;
 }
 a{
@@ -33,6 +33,7 @@ p {
     text-align: center;
     width: 1000px;
     display: inline-block;
+    font-family: 'Mitr', sans-serif;
 }
 .three_collage {
     border: 3px solid black;
