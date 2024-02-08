@@ -5,6 +5,11 @@ a{
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('img/pink.jpg');
+    background-size: cover; 
+    background-repeat: repeat;
+    background-color: #F5E6E0;
+    padding: 20px; 
 }
 
 .container {
@@ -12,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     background: #F5E6E0;
+    
 }
 
 .button-container {
