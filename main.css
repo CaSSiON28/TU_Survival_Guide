@@ -26,6 +26,7 @@ body{
 .title{
     font-size: 38px;
     font-family: 'Comfortaa', sans-serif;
+    font-weight: 800;
     text-align:center;
     border: 3px solid #902745;
     border-radius: 8px;
@@ -34,7 +35,46 @@ body{
     margin-right:400px;
     padding:20px;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #902745;
+  --color-2: #ffffff;
+  --color-3: black;
+}
+
+.title-word-2 {
+  --color-1: black;
+  --color-2: #902745;
+  --color-3: #ffffff;
+}
+
+.title-word-3 {
+  --color-1: black;
+  --color-2: #ffffff;
+  --color-3: #902745;
+}
+
+.title-word-4 {
+  --color-1: #902745;
+  --color-2: black;
+  --color-3: #ffffff;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
 .beside{
     display:flex;
     align-items:center;
@@ -42,7 +82,7 @@ body{
 }
 
 .long_button{
-    border:3px solid #902745;
+    border: 3px solid #902745;
     border-radius:12px;
     text-align:center;
     margin-right:50px;
@@ -54,6 +94,7 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .vertical{
     text-align:center;
@@ -70,8 +111,8 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
 .small2_button{
     border:3px solid #902745;
     border-radius:12px;
@@ -84,23 +125,24 @@ body{
     cursor:pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
-}
-
-.button-container {
-    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about_button {
+    border: 3px solid #902745;
     display: block;
-    margin: 20px auto;
+    margin: 25px auto;
     padding: 25px;
     font-size: 25px;
     font-family: 'Comfortaa', sans-serif;
-    border: 3px #902745;
     border-radius: 8px;
     color: #902745;
     cursor: pointer;
     width: 500px;
     height:100px;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
+    align-items: center;
+    appearance: none;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
 }
