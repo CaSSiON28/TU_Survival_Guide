@@ -15,10 +15,10 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding-right: 5%; */
     width: 100%;
     box-sizing: border-box;
-  }
+}
 
 .button-container {
     text-align: center;
@@ -77,55 +77,61 @@ body{
   100%  {color: var(--color-1)}
 }
 
-.beside{
-    display:flex;
-    align-items:center;
-    margin:80px;
+.beside {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin: 5% 5% 5% 5%;
 }
 
-.long_button{
+.long_button {
     border: 3px solid #902745;
-    border-radius:12px;
-    text-align:center;
-    margin-right:50px;
-    margin-left:180px;
-    width:500px;
-    height:450px;
-    font-size:45px;
+    border-radius: 12px;
+    text-align: center;
+    /* margin-right: 50px; */
+    margin-left: 4%;
+    width: 500px;
+    height: 450px;
+    font-size: 45px;
     font-family: 'Comfortaa', sans-serif;
-    cursor:pointer;
+    cursor: pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.vertical{
-    text-align:center;
+.vertical {
+    text-align: center;
+    padding: 0px;
+    width: 100%;
 }
 
-.small1_button{
+.small1_button {
     border: 3px solid #902745;
-    border-radius:12px;
-    text-align:center;
-    width:400px;
-    height:200px;
-    font-size:45px;
+    border-radius: 12px;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    font-size: 45px;
     font-family: 'Comfortaa', sans-serif;
-    cursor:pointer;
+    cursor: pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.small2_button{
+    
+.small2_button {
     border: 3px solid #902745;
-    border-radius:12px;
-    margin-top:50px;
-    text-align:center;
-    width:400px;
-    height:200px;
-    font-size:45px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    font-size: 45px;
     font-family: 'Comfortaa', sans-serif;
-    cursor:pointer;
+    cursor: pointer;
     color: #902745;
     background-image: radial-gradient(circle, rgba(251, 196, 188, 1) 0%, rgba(255, 94, 108, 0.57) 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
