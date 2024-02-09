@@ -15,7 +15,6 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     width: 100%;
     box-sizing: border-box;
   }
@@ -80,7 +79,7 @@ body{
 .beside{
     display:flex;
     align-items:center;
-    margin:80px;
+    margin: 5% 5% 5% 5%;
 }
 
 .long_button{
@@ -88,7 +87,7 @@ body{
     border-radius:12px;
     text-align:center;
     margin-right:50px;
-    margin-left:180px;
+    margin-left:4%;
     width:500px;
     height:450px;
     font-size:45px;
@@ -105,6 +104,8 @@ body{
 .small1_button{
     border: 3px solid #902745;
     border-radius:12px;
+    margin-right: 15%;
+    margin-left: 15%;
     text-align:center;
     width:400px;
     height:200px;
@@ -120,6 +121,8 @@ body{
     border: 3px solid #902745;
     border-radius:12px;
     margin-top:50px;
+    margin-right:15%;
+    margin-left:15%;
     text-align:center;
     width:400px;
     height:200px;
